@@ -1,0 +1,14 @@
+[project]
+name = "tts-data-pipeline"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "torch",
+    "torchaudio",
+    "openai-whisper",
+    "datasets",
+    "huggingface_hub",
+    "soundfile>=0.13.1",
+]
